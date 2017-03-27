@@ -1,4 +1,5 @@
 # Pedselect
+Pedselect is a Python script for selecting and prioritizing individuals to sequence from large multiplex pedigrees
 
 ## Overview
 Large multiplex pedigrees can be informative for indentifying disease associated risk loci. As many pedigrees are collected over long periods of time, pedigree members may vary in terms of whether their phenotype has been observed, whether they have already been sequenced/genotyped, and whether they have DNA collected that can readily been sequenced/genotyped. Given budget constraints, only sequencing some members may be feasible. Pedigree-based genotype imputation methods can then be used to 'fill-in' the genotypes of members who have not (or cannot) been sequenced.
@@ -33,5 +34,10 @@ The optional -m flag denotes the number of meiosis events from an individual to 
 ### Output
 The script will print out a list of individuals ordered by priority for sequencing. Next to each individual is an overall imputability score for the rest of the pedigree assuming that individual and all those preceeding them has been sequenced (see pedselect.pdf).
 
+## License
+This project is licensed under BSD License 2.0
+
 ## Contact
 Jimmy Liu (jliu@nygenome.org), New York Genome Center
+
+
